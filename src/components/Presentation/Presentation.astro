@@ -1,5 +1,5 @@
 ---
-
+import { BASE_URL } from "utils/constants.js";
 ---
 
 <section class="presentation" id="presentation">
@@ -21,17 +21,17 @@
 		</p>
 		<a
 			class="download"
-			href="/assets/docs/CV_Juan_Zeledon-English.pdf"
+			href=`${BASE_URL}/assets/docs/CV_Juan_Zeledon-English.pdf`
 			alt="download cv"
 			download
-			><img class="download_icon" src="/assets/icons/download.png" />
+			><img class="download_icon" src=`${BASE_URL}/assets/icons/download.png` />
 			<span>Download CV</span>
 		</a>
 	</div>
 	<div class="right">
 		<img
 			class="profile-picture"
-			src="./assets/images/own.png"
+			src=`${BASE_URL}/assets/images/own.png`
 			alt="personal_portfolio_image"
 		/>
 	</div>
