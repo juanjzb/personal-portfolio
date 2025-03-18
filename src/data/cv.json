@@ -1,0 +1,271 @@
+{
+  "basics": {
+    "name": "Juan José Zeledón Benavides",
+    "label": "Systems Engineer",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQEX2756hvuG7w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699207408233?e=1730937600&v=beta&t=-9gzHFy2PqK-zOrIOTQArRNQ3dSbrFdMFsLxulhk_6k",
+    "email": "zb.juanjose@gmail.com",
+    "phone": "+505 8508 8302",
+    "url": "",
+    "summary": "Systems Engineer focused on software development, with experience in creating and maintaining web and desktop applications. Skilled in backend and frontend technologies, database management, and software deployment.",
+    "location": {
+      "address": "",
+      "postalCode": "31000",
+      "city": "Estelí",
+      "countryCode": "NI",
+      "region": "Nicaragua"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "juanjzb",
+        "url": "https://linkedin.com/in/juanjzb"
+      },
+      {
+        "network": "GitHub",
+        "username": "juanjzb",
+        "url": "https://github.com/juanjzb"
+      },
+      {
+        "network": "WhatsApp",
+        "username": "",
+        "url": "https://api.whatsapp.com/send/?phone=%2B50585088302&text=Hola%20Juan!.%20Te%20estoy%20contactando%20por%20medio%20del%20enlace%20en%20tu%20portfolio.%20Me%20gustaría%20hablar%20contigo.&type=phone_number"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "UNI RUACS",
+      "position": "Instructor",
+      "url": "",
+      "startDate": "2021-05-01",
+      "endDate": "2023-12-01",
+      "summary": "Taught courses in the Information Technology profile of the Systems Engineering program, covering Programming, Databases, and Software Engineering.",
+      "highlights": [
+        "Supervised projects for Science and Technology Fairs at campus and faculty levels.",
+        "Advised thesis projects, including a Wood-Based Structural Calculation System."
+      ]
+    },
+    {
+      "name": "SDA GLOBAL CORP",
+      "position": "Software Engineer and User Support Specialist",
+      "url": "",
+      "startDate": "2019-09-01",
+      "endDate": "2022-08-01",
+      "summary": "Managed and maintained the Job Master Control software, developed in ASP Classic with SQL Server, ensuring performance and stability.",
+      "highlights": [
+        "Developed new modules using PHP and JavaScript with MySQL.",
+        "Implemented automated database backup and recovery procedures."
+      ]
+    },
+    {
+      "name": "UNIVAL",
+      "position": "Instructor",
+      "url": "",
+      "startDate": "2015-10-01",
+      "endDate": "2022-12-01",
+      "summary": "Taught Statistics, Mathematical Calculus, Financial Mathematics, and Operations Research.",
+      "highlights": [
+        "Recognized for academic and scientific contributions in 2017 and 2018."
+      ]
+    },
+    {
+      "name": "AGROTECNISA",
+      "position": "Head of IT Department",
+      "url": "",
+      "startDate": "2017-08-01",
+      "endDate": "2018-08-01",
+      "summary": "Developed a client management system in C# and PHP, optimizing record access and reducing verification time from 3 days to a few hours.",
+      "highlights": [
+        "Managed social media and graphic design for advertising.",
+        "Oversaw data networks and CCTV systems."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Universidad Nacional Politécnica",
+      "url": "",
+      "area": "Law Degree",
+      "studyType": "Bachelor's Degree",
+      "startDate": "January 2024",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Nacional de Ingeniería",
+      "url": "",
+      "area": "Systems Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "January 2010",
+      "endDate": "December 2014",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Intermidiate",
+      "keywords": [
+        "Express with MySQL, SQL Server, and MongoDB",
+        "Sequelize ORM and Mongoose ODM",
+        "React, Astro, TypeScript, and TailwindCSS",
+        "HTML, CSS, PHP, Bootstrap, and MySQL",
+        "Git, GitHub, and Docker",
+        "WordPress and cPanel management",
+        "Deployment on DigitalOcean with Ubuntu-based Droplets"
+      ]
+    },
+    {
+      "name": "Desktop Development",
+      "level": "Intermidiate",
+      "keywords": [
+        "Visual Basic .NET and C# with Entity Framework",
+        "Git, GitHub, and Docker",
+        ".NET Framework and .NET Core"
+      ]
+    },
+    {
+      "name": "Relational Databases",
+      "level": "Intermidiate",
+      "keywords": [
+        "SQL Server",
+        "MySQL",
+        "DDL: Data Definition Language",
+        "DML: Data Manipulation Language",
+        "DCL: Data Control Language",
+        "TCL: Transaction Control Language",
+        "Views, Stored Procedures, Functions, and Triggers"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Thermal Ticket Printer Utility for NetCore",
+      "startDate": "",
+      "endDate": "",
+      "description": "This library is designed to generate and print invoices in a format suitable for thermal printers, specifically those that handle 55mm and 80mm paper widths.\nIt provides a flexible and customizable way to create invoices with a professional layout, including support for logos, business information, customer details, product lists, and totals. The library is written in C# and is compatible with Windows Forms applications. It can also be adapted for use in console applications or other .NET environments.",
+      "highlights": [
+        "Developed in C# with .NET Core",
+        "Supports thermal printers with 55mm and 80mm paper widths.",
+        "Customizable invoice layout with logos, business information, customer details, product lists, and totals.",
+        "Compatible with Windows Forms applications.",
+        "Can be adapted for use in console applications or other .NET environments.",
+        "Open-source project available on GitHub.",
+        "Published on NuGet for easy integration into other projects."
+      ],
+      "url": "https://github.com/juanjzb/thermal-ticket-printer-utility-net-core",
+      "technologies": [
+        "csharp",
+        "net core",
+        "windows"
+      ],
+      "image": "/thermal_printer.jpg"
+    },
+    {
+      "name": "Youtube Video / Playlist Downloader CLI",
+      "startDate": "",
+      "endDate": "",
+      "description": "Youtube Single Video and Playlist Downloader. \n      This is a simple command-line tool that allows you to download videos and playlists from YouTube. It is written in Node JS and uses the yt-dlp library to interact with the YouTube API. The tool is easy to use and can be run from the command line with a few simple commands. It supports downloading both single videos and entire playlists, and allows you to choose the video quality and format that you want to download.",
+      "highlights": [
+        "Built in Node JS with the yt-dlp library.",
+        "Supports downloading single videos and entire playlists.",
+        "Allows you to choose the video quality and format that you want to download.",
+        "Easy to use command-line interface.",
+        "Sort videos and playlist on specific folders."
+      ],
+      "url": "https://github.com/juanjzb/youtube-downloader",
+      "technologies": [
+        "nodejs",
+        "youtube-dl"
+      ],
+      "image": "/youtube_downloader.png"
+    },
+    {
+      "name": "Easy Objects",
+      "startDate": "",
+      "endDate": "",
+      "description": "A simple utility library for working with arrays and objects in JavaScript",
+      "highlights": [
+        "Built in Javascript",
+        "Supports working with arrays and objects",
+        "Provides utility functions for common tasks",
+        "Easy to use and integrate into other projects",
+        "Open-source project available on GitHub"
+      ],
+      "url": "https://github.com/juanjzb/easy-objects",
+      "technologies": [
+        "javascript"
+      ],
+      "image": "/easy_objects.png"
+    },
+    {
+      "name": "Nicaraguan DNI Validator",
+      "startDate": "",
+      "endDate": "",
+      "description": "Este es un paquete que sirve para validar números de cédula de Nicaragua., verificando la validez en función de los códigos de municipio, la fecha de nacimiento y una letra final calculada utilizando el algoritmo de módulo 23.",
+      "highlights": [
+        "Valida números de cédula (16 dígitos con guiones o 14 dígitos sin guiones).",
+        "Verificar los códigos de municipio con una lista predefinida.",
+        "Validar el formato de la fecha de nacimiento (ddmmyy).",
+        "Calcular la letra final basada en los números de la cédula para verificar que sea correcta.",
+        "It has 2 modes: silent and verbose.",
+        "Open-source project available on GitHub.",
+        "Additional 2 extra functionalities to show departments and municipalities filtered by department."
+      ],
+      "url": "https://github.com/juanjzb/nicaraguan-dni-validator",
+      "technologies": [
+        "javascript"
+      ],
+      "image": "/nicaraguan_dni_validator.jpg"
+    },
+    {
+      "name": "Pharmacy Sales and Inventory Managment System",
+      "startDate": "",
+      "endDate": "",
+      "description": "A WinForms application to manage sales and inventory for a pharmacy.",
+      "highlights": [
+        "Developed with C# WinForms for the desktop interface",
+        "Uses MySQL as the database for storing ad inventory data",
+        "Ensures security with role-based access control for different user levels"
+      ],
+      "url": "https://github.com/juanjzb",
+      "technologies": [
+        "C#",
+        "WinForms",
+        "MySQL",
+        "Entity Framework"
+      ],
+      "image": "/pharmacy_inventory.jpg"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<nav>
+	<ul>
+		<!--<li><a href="">ES / EN</a></li>-->
+		<li><a href="#presentation">About</a></li>
+		<li><a href="#experience">Experience</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</nav>
+<style>
+	nav {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 30px;
+		@media (width<= 900px) {
+			justify-content: center;
+			outline: 2px solid beige;
+		}
+	}
+
+	nav > ul {
+		list-style-type: none;
+		display: flex;
+		@media (width<= 900px) {
+			gap: 1rem;
+		}
+		li {
+			font-size: 1rem;
+
+			a {
+				color: var(--primary-color);
+				padding-left: 25px;
+			}
+		}
+	}
+</style>

@@ -1,0 +1,15 @@
+---
+import ProjectCard from "./ProjectCard.astro";
+
+import cv from '@data/cv.json';
+const projects = cv.projects
+---
+
+<section class="projects" id="projects">
+	<h2 class="title">Recent Projects</h2>
+    {
+        projects.map(project => (
+					<ProjectCard data={project}/>
+        ))
+    }
+</section>

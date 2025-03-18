@@ -1,0 +1,23 @@
+---
+import cv from "../../data/cv.json"
+const {basics: {profiles}} = cv
+
+import LinkedIn from './SocialIcons/LinkedIn.astro'
+import GitHub from './SocialIcons/GitHub.astro'
+import WhatsApp from './SocialIcons/WhatsApp.astro'
+const SocialIcons = {
+    LinkedIn,
+    GitHub,
+    WhatsApp,
+}
+---
+
+{
+    profiles.map(profile=>{
+        const SocialComponent = SocialIcons[profile.network]
+        return SocialComponent
+            ?
+				<SocialComponent url={profile.url}/>
+            : null
+        })
+    }

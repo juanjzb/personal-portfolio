@@ -1,0 +1,90 @@
+---
+
+---
+
+<section class="presentation" id="presentation">
+	<div class="left">
+		<h1 class="name">Juan José Zeledón Benavides</h1>
+		<h2 class="title">Systems Engineer | Software Developer | Educator</h2>
+		<p class="description">
+			Experienced Systems Engineer specializing in software development and IT
+			solutions, with a strong background in web and desktop applications. I
+			have worked across various industries, providing software engineering, IT
+			consulting, and technical support.
+			<br /><br />
+			I have experience in freelancing and consulting, offering services in software
+			development, server administration, graphic design, and tech support. Previously,
+			I worked as a Software Engineer in the logistics sector, maintaining and enhancing
+			legacy systems while integrating modern solutions with PHP, JavaScript, MySQL,
+			and external APIs. Additionally, I have led IT departments, developing internal
+			systems to optimize business processes and improve efficiency.
+		</p>
+		<a
+			class="download"
+			href="/assets/docs/CV_Juan_Zeledon-English.pdf"
+			alt="download cv"
+			download
+			><img class="download_icon" src="/assets/icons/download.png" />
+			<span>Download CV</span>
+		</a>
+	</div>
+	<div class="right">
+		<img
+			class="profile-picture"
+			src="./assets/images/own.png"
+			alt="personal_portfolio_image"
+		/>
+	</div>
+	<style>
+		.presentation {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.title {
+			font-size: 1rem;
+			margin-top: -5px;
+			color: var(--complementary-color-2);
+		}
+
+		.description {
+			font-size: 0.96rem;
+			font-weight: 400;
+			overflow-wrap: break-word;
+		}
+
+		.profile-picture {
+			width: 25rem;
+			@media (width<= 900px) {
+				display: none;
+			}
+		}
+
+		.download {
+			background-color: var(--alternative-color-2);
+			color: var(--complementary-color-1);
+			font-weight: 500;
+			padding: 10px;
+			border-radius: 15px;
+			margin-top: 15px;
+			max-width: 200px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 15px;
+			transition: all ease 0.5s;
+
+			.download_icon {
+				width: 24px;
+			}
+		}
+
+		.download:hover {
+			background-color: var(--alternative-color-1);
+			color: var(--background-color);
+			transform: translateY(-3px);
+			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+		}
+	</style>
+</section>

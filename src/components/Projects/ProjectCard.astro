@@ -1,0 +1,106 @@
+---
+import ProjectBadge from "./ProjectBadge.astro";
+
+type Props = {
+	name: string;
+	image: string;
+	description: string;
+	languages?: Array<string>;
+};
+
+const {
+	data: { name, image, description, technologies, url },
+} = Astro.props;
+---
+
+<div class="row">
+	<img class="image" src=`/assets/project_icons${image}` alt={name} />
+
+	<div class="details">
+		<div>
+			<h3 class="title"><a href={url} target="_blank">{name}</a></h3>
+			<p class="description">{description}</p>
+		</div>
+
+		<!-- <div class="tech-badges">
+			<img class="badge" src="/assets/icons/python.svg"/>
+			<img class="badge" src="/assets/icons/typescript.png"/>
+			<img class="badge" src="/assets/icons/javascript.png"/>
+			<img class="badge" src="/assets/icons/mysql.png"/>
+			<img class="badge" src="/assets/icons/php.png"/>
+			<img class="badge" src="/assets/icons/sqlserver.png"/>
+		</div> -->
+	</div>
+</div>
+
+<style>
+	.row {
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		background-color: #f7f9fb;
+		color: black;
+		border-radius: 16px;
+		line-height: normal;
+		margin-bottom: 15px;
+		padding: 10px;
+		outline: 1px solid rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
+		min-height: 120px;
+	}
+
+	.row:hover {
+		transform: translateY(-5px);
+		box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+	}
+
+	.image {
+		width: 120px;
+		height: 120px;
+		object-fit: cover;
+		padding: 6px;
+		display: flex;
+		border-radius: 22px;
+		@media (width<= 500px) {
+			display: none;
+		}
+	}
+
+	.title {
+		font-weight: 500;
+		margin: 0 10px;
+		padding: 5px 0;
+	}
+
+	.description {
+		margin: 0 10px;
+		font-size: 0.75rem;
+	}
+
+	.details {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		flex-grow: 1;
+		margin-right: 25px;
+	}
+
+	.tech-badges {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		gap: 0 10px;
+		margin-top: auto; /* Forces badges to stay at the bottom */
+		padding-bottom: 10px; /* Ensures some spacing at bottom */
+	}
+
+	.badge {
+		width: 24px;
+		height: 24px;
+		object-fit: contain;
+	}
+</style>

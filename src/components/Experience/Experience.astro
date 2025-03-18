@@ -1,0 +1,94 @@
+---
+import cv from "@data/cv.json";
+const { work: experience } = cv;
+---
+
+<section class="experience" id="experience">
+	<h2 class="title">Experience</h2>
+	{
+		// projects.map(project => (
+		// 			<ProjectCard data={project}/>
+		// ))
+	}
+
+	<!--<div class="timeline">-->
+	<!--  {experience.map((job, index) => (-->
+	<!--			<div class={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}>-->
+	<!--				<div class="timeline-content">-->
+	<!--					<h3>{job.position}</h3>-->
+	<!--					<h4>{job.name}</h4>-->
+	<!--					<p><strong>{job.startDate}</strong></p>-->
+	<!--					<p>{job.summary}</p>-->
+	<!--				</div>-->
+	<!--			</div>-->
+	<!--  ))}-->
+	<!--</div>-->
+
+	{
+		experience.map((job) => (
+			<div class="job">
+				<div class="left">
+					<span class="interval">
+						{job.startDate.split("-")[0]} - {job.endDate.split("-")[0]}
+					</span>
+				</div>
+				<div class="right">
+					<p class="info">
+						{job.position} · {job.name}
+					</p>
+					<p class="summary">{job.summary}</p>
+					<ul class="summary highlights">
+						{job.highlights &&
+							job.highlights.length > 0 &&
+							job.highlights.map((highlight) => <li>{highlight}</li>)}
+					</ul>
+				</div>
+			</div>
+		))
+	}
+</section>
+<style>
+	.job {
+		margin-bottom: 1.5rem;
+		display: flex;
+		border-radius: 5px;
+		padding: 1rem;
+		transition: box-shadow 0.3s ease;
+		background-color: rgba(80, 120, 128, 0.2);
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		overflow: hidden;
+		position: relative;
+
+		@media (width<= 500px) {
+			flex-direction: column;
+		}
+	}
+
+	.left {
+		min-width: 200px;
+	}
+
+	.job:hover {
+		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	}
+
+	.interval {
+		font-size: 1.2rem;
+		text-align: center;
+	}
+
+	.info {
+		font-size: 1.25rem;
+	}
+
+	.summary {
+		line-height: normal;
+		font-size: 0.95rem;
+		color: var(--complementary-color-2);
+	}
+
+	.highlights {
+		display: block;
+		margin-left: 40px;
+	}
+</style>

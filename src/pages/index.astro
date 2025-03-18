@@ -1,0 +1,38 @@
+---
+import Header from "../components/Header.astro";
+import Main from "../components/Main.astro";
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout title="Juan Zeledon ~ Portfolio">
+  <div class="container">
+    <header class="header"><Header /></header>
+    <main class="main"><Main /></main>
+    <footer class="footer"><Footer /></footer>
+  </div>
+  <style>
+    .container {
+      display: grid;
+      grid-auto-rows: 1fr max-content 1fr;
+      gap: 10px 10px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    }
+
+    .header {
+      grid-area: header;
+    }
+
+    .main {
+      grid-area: main;
+    }
+
+    .footer {
+      grid-area: footer;
+    }
+  </style>
+</Layout>

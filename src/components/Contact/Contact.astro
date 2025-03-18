@@ -1,0 +1,27 @@
+---
+import SocialNetworks from "../Contact/SocialNetworks.astro";
+---
+
+<section class="contact" id="contact">
+	<h2 class="title">Get in Touch</h2>
+	<div>
+		<SocialNetworks className="socialNetworks" />
+	</div>
+</section>
+
+<style>
+	.contact {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.social-networks {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+</style>
